@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Zadanie domowe dzien 4 
+
+using System.Runtime;
+
+var name = "Ewa";
+var myAge = 33;
+var result =  (name + myAge);
+Console.WriteLine(result);
+
