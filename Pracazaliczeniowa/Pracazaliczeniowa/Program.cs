@@ -1,37 +1,17 @@
-﻿// Zadanie domowe dzien 4 
+﻿// Zadanie domowe dzien 4
 
-
-using System.ComponentModel.Design;
-
+var age = 33;
 var name = "Ewa";
-bool woman = true;
-int age= 25;
-
-if (woman = true && age < 30)
+string sex = "Woman";
+if (age < 29 && "Ewa" != "Woman")
 {
-    if (woman = true)
-    {
-        Console.WriteLine("Ewa, lat 33");
-    }
-    if (woman == true && age < 35)
-    {
-
-
-        Console.WriteLine("Niepelnoletni Meszczyzna");
-    }
-
-    if (woman == true && age < 32) ;
-    {
-        Console.WriteLine("kobieta ponizej 30 lat");
-    }
+    Console.WriteLine("Kobieta ponizej lat 30 ");
 }
- else if (woman = true && age <= 31) ;
-
-       Console.WriteLine(" Waclaw Skaza ,lat 40 ");
-
-
-       if (woman = true && age <= 31) ;
-
-        Console.WriteLine("Dziekuje za lekcje 4");
-
-
+else if (name == "Ewa")
+{
+    Console.WriteLine("Ewa,lat 33");
+}
+else if (age > 25 || name != "Ewa")
+{
+    Console.WriteLine("Niepelnoletni Meszczyzna ");
+}
