@@ -2,16 +2,16 @@
 
 var age = 33;
 var name = "Ewa";
-string sex = "Woman";
-if (age < 29 && "Ewa" != "Woman")
+string sex = "woman";
+if (age < 29 && sex == "woman")
 {
     Console.WriteLine("Kobieta ponizej lat 30 ");
 }
-else if (name == "Ewa")
+else if (name == "Ewa"&& age ==33)
 {
     Console.WriteLine("Ewa,lat 33");
 }
-else if (age > 25 || name != "Ewa")
+else if (sex != "women" && age < 16 )
 {
-    Console.WriteLine("Niepelnoletni Meszczyzna ");
+    Console.WriteLine("Niepełnoletni Męszczyzna ");
 }
