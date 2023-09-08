@@ -3,7 +3,7 @@
 var age = 33;
 var name = "Ewa";
 string gender  = "woman";
-if (age < 29 && gender == "woman")
+if (age < 30 && gender == "woman")
 {
     Console.WriteLine("Kobieta ponizej lat 30 ");
 }
