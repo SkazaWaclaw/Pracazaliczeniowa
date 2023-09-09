@@ -1,17 +1,16 @@
-﻿// Zadanie domowe dzien 4
+﻿int[] grades = new int[365];
+List<string> dayOfWeeks = new List<string>();
+dayOfWeeks.Add("poniedziałek");
+dayOfWeeks.Add("wtorek");
+dayOfWeeks.Add("środa");
+dayOfWeeks.Add("czwartek");
+dayOfWeeks.Add("piątek");
+dayOfWeeks.Add("sobota");
+dayOfWeeks.Add("niedziela");
 
-var age = 33;
-var name = "Ewa";
-string gender  = "woman";
-if (age < 30 && gender == "woman")
+
+for (var i=0; i<dayOfWeeks.Count ;i++)
 {
-    Console.WriteLine("Kobieta ponizej lat 30 ");
+    Console.WriteLine(dayOfWeeks[i]);
 }
-else if (name == "Ewa"&& age ==33)
-{
-    Console.WriteLine("Ewa,lat 33");
-}
-else if (gender == "man" && age < 18 )
-{
-    Console.WriteLine("Niepełnoletni Męższczyzna ");
-}
+
